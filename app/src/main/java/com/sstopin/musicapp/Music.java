@@ -1,8 +1,7 @@
 package com.sstopin.musicapp;
 
-// This is the custom Word constructor to handle
-// the displaying of the Miwok and English words for
-// each categoty.
+// This is the custom Music constructor to handle
+// the displaying of song, album and artist
 
 public class Music {
     private String mArtist;
