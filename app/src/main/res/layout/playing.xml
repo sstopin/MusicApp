@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGrayBackGround"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/playStyle"
+        android:text="Currently Playing"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            style="@style/playStyle"
+            android:text="@string/artist"/>
+        <TextView
+            android:id="@+id/artistPlaying"
+            style="@style/playStyle"
+            tools:text="artist name"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            style="@style/playStyle"
+            android:text="@string/album"/>
+        <TextView
+            android:id="@+id/albumPlaying"
+            style="@style/playStyle"
+            tools:text="album name"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            style="@style/playStyle"
+            android:text="@string/song"/>
+        <TextView
+            android:id="@+id/songPlaying"
+            style="@style/playStyle"
+            tools:text="song name"/>
+    </LinearLayout>
+
+</LinearLayout>

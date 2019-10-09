@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UdacityMusic</string>
+    <string name="albums">Albums</string>
+    <string name="songs">Songs</string>
+    <string name="artists">Artists</string>
+    <string name="album">Album :</string>
+    <string name="song">Song   :</string>
+    <string name="artist">Artist :</string>
+    <string name="sort">SORT BY</string>
+</resources>
