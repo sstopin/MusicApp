@@ -1,5 +1,7 @@
 package com.sstopin.musicapp;
 
+// adapter to handle the arraylist of music objects
+
 import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.View;
