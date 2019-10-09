@@ -42,6 +42,7 @@ public class ArtistsActivity extends AppCompatActivity {
                 playingIntent.putExtra("artist", selectedMusic.getArtist());
                 playingIntent.putExtra("album", selectedMusic.getAlbum());
                 playingIntent.putExtra("song", selectedMusic.getSong());
+                playingIntent.setFlags(playingIntent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
                 startActivity(playingIntent);
             }
         });

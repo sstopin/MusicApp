@@ -1,8 +1,10 @@
 package com.sstopin.musicapp;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -43,6 +45,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent artistsIntent = new Intent(MainActivity.this, ArtistsActivity.class);
                 startActivity(artistsIntent);
+            }
+        });
+
+        // Set a click listener on currently playing button
+        Button playingButton = (Button) findViewById(R.id.playingBtn);
+        playingButton.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the albums View is clicked on
+            // and highlight the textview.
+            public void onClick(View view) {
+                Intent playingIntent = new Intent(MainActivity.this, CurrentlyPlaying.class);
+                startActivity(playingIntent);
             }
         });
     }

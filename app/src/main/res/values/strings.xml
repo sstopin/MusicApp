@@ -7,4 +7,6 @@
     <string name="song">Song   :</string>
     <string name="artist">Artist :</string>
     <string name="sort">SORT BY</string>
+    <string name="mainButton">Return to Main</string>
+    <string name="playingButton">Currently Playing</string>
 </resources>
